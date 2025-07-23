@@ -136,7 +136,7 @@ Home is a way for players to set a personal warp point that they can teleport to
 |`/delhome`|Remove a home|
 
 :::info
-If you can only set home(newcomer rank), you can just use `/sethome` and it will name the home `home`.
+If you can only set one home(newcomer rank), you can just use `/sethome` and it will name the home `home`.
 :::
 
 ---
