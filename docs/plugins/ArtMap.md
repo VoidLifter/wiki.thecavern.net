@@ -1,3 +1,14 @@
+---
+title: ArtMap
+slug: /plugins/artmap
+description: Learn how to use ArtMap plugin
+keywords:
+  - art
+  - map
+  - artmap
+  - dye
+  - artwork
+---
 # ArtMap
 
 <div style={{margin: '0 auto', width: '60%'}}>

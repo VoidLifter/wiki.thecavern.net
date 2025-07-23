@@ -1,6 +1,15 @@
 ---
 sidebar_position: 1
 slug: /
+description: TheCavern Wiki Intro
+keywords:
+  - thecavern
+  - cavern
+  - minecraft
+  - minecraft server
+  - smp
+  - survival
+  - multiplayer
 ---
 
 # The Cavern Wiki

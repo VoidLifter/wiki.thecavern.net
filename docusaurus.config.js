@@ -50,6 +50,10 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      metadata: [
+        { name: 'keywords', content: 'the cavern, minecraft, minecraft server, slimefun, pyrofishing, pyromining, mofood, smp, survival, survival multiplayer'},
+        { name: 'canonical', content: 'https://wiki.thecavern.net' },
+      ],
     }),
 };
 

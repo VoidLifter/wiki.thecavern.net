@@ -2,6 +2,19 @@
 sidebar_position: 2
 slug: /navigating
 title: Navigating The Server
+description: Learn how to navigate in The Cavern
+keywords:
+  - navigating
+  - warp
+  - teleport
+  - playerwarp
+  - town outpost
+  - town spawn
+  - outpost
+  - spawn
+  - gps
+  - elevator
+  - map
 ---
 
 import RTP_Parrot from './assets/img/Navigating/rtp_parrot.png';
