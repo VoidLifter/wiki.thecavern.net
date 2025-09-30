@@ -2,6 +2,19 @@
 sidebar_position: 2
 slug: /navigating
 title: Navigating The Server
+description: Learn how to navigate in The Cavern
+keywords:
+  - navigating
+  - warp
+  - teleport
+  - playerwarp
+  - town outpost
+  - town spawn
+  - outpost
+  - spawn
+  - gps
+  - elevator
+  - map
 ---
 
 import RTP_Parrot from './assets/img/Navigating/rtp_parrot.png';
@@ -136,7 +149,7 @@ Home is a way for players to set a personal warp point that they can teleport to
 |`/delhome`|Remove a home|
 
 :::info
-If you can only set home(newcomer rank), you can just use `/sethome` and it will name the home `home`.
+If you can only set one home(newcomer rank), you can just use `/sethome` and it will name the home `home`.
 :::
 
 ---
