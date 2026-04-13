@@ -24,4 +24,4 @@ jobs:
         with:
           folder: build
           repository-name: TheCavern/wiki-dev.thecavern.net
-          token: ${{ secrets.DEVDEPLOY_KEY }}
+          ssh-key: ${{ secrets.DEVDEPLOY_KEY }}
