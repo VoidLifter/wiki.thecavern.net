@@ -23,5 +23,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build
-          repository-name: TheCavern/wiki-dev.thecavern.net
+          repository-name: TheCavern/wiki-next.thecavern.net
           ssh-key: ${{ secrets.DEVDEPLOY_KEY }}

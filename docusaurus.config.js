@@ -10,10 +10,11 @@ const config = {
   organizationName: 'The Cavern',
   projectName: 'Cavern Wiki',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   deploymentBranch: 'gh-pages',
-
-
+  future: {
+    v4: true,
+    faster: true,
+  },
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -28,6 +29,11 @@ const config = {
       },
     ],
   ],
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    }
+  },
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
