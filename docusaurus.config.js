@@ -48,9 +48,10 @@ const config = {
         hashed: true,
         indexDocs: true,
         indexPages: true,
-
         language: 'en',
       },
+    ],
+    [
       '@docusaurus/plugin-ideal-image',
       {
         quality: 70,
