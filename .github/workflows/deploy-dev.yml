@@ -8,6 +8,8 @@ jobs:
   build-and-deploy:
     concurrency: ci-${{ github.ref }}
     runs-on: ubuntu-latest
+    env:
+      DEPLOY_ENV: dev
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
