@@ -28,6 +28,7 @@ import WarpPad_Use from './assets/img/Navigating/warppad_use.gif';
 import SquareMap from './assets/img/Navigating/squaremap.png';
 
 ## Server Warp
+
 Server warp is a way to teleport to server designated places like spawn, leaderboard, and other places. To use this you can simply do `/warp`.
 
 <div align="center">
@@ -37,6 +38,7 @@ Server warp is a way to teleport to server designated places like spawn, leaderb
 ---
 
 ## Random Teleport
+
 Just like what the name explained, random teleport allows you to teleport to a random place in certain worlds. You access this command with `/rtp` or `/wild`.
 
 |Command|Description|
@@ -50,11 +52,12 @@ Just like what the name explained, random teleport allows you to teleport to a r
 ---
 
 ## PlayerWarp
+
 Playerwarp is a feature that allows players to set their own custom warp points, which other players can then use to teleport directly to those locations, making it easy to travel to favorite spots or personal bases within the game. To open the playerwarp menu, you can use the command `/pw` or you can also visit a specific player warp using `/pw <warp>`. To create a playerwarp you can simply do `/pw set <name>` and it will set a playerwarp in your current location. Each player has a limited amount of player warp they can set, the exact amount u can set depends on what rank you are. You can see how many player warps you can set using the `/pw amount` command, and you can see the list of your player warp or others using `/pw list` or `/pw list <player>`.
 
 To set your own player warp, you can use the command `/pw set <name>`. If you are not satisfied with the placement of your warp, you can use the command `/pw reset <name>` to change the location of a playerwarp, this is usually preferable instead of removing and recreating a player warp because this method does not reset the player warp visit count and their ratings. If you want to remove a player warp completely you can use the command `/pw remove <name>`.
 
-Player warps are categorized by five categories: Building, Shop, Farm, Combat, and Others. You can change a category of ur player warp using `/pw category set <warp> <category>`. 
+Player warps are categorized by five categories: Building, Shop, Farm, Combat, and Others. You can change a category of ur player warp using `/pw category set <warp> <category>`.
 
 There are several things you can edit for your player warp. First a player warp can be renamed using `/pw rename <oldname> <newname>`. To change a description of a player warp as shown on the `/pw menu`, you can use the command `/pw desc set/remove <description>` . And also can be categorized using `/pw category set <warp>`. To prevent other people from teleporting to it you can use `/pw lock <name>`. Or if you still want some players to teleport to it but not all, consider setting a password for it using `/pw password set/remove <name> <password>`, that way players are prompted to enter the password before teleporting.
 
@@ -77,12 +80,14 @@ There are several things you can edit for your player warp. First a player warp 
 ---
 
 ## Town Spawn
+
 :::warning
 In this section, we only discuss Town spawn briefly. For more info visit the Towny Town section.
 :::
-If you are in a town, you can teleport to your town spawn using `/t spawn`. You can also teleport to another town if that town is a public town, you can check this in `/t <town name>`. 
 
-Town spawn by default is in the same location when you created your town, but you can still change it in the future. There are two different ways to change town spawn, the method you choose depends on whether the new plot would be the same chunk from your current town spawn or not. If the new spawn is inside the old spawn plot, do `/t set spawn` to set a town spawn, if it's outside, do `/t set homeblock`. 
+If you are in a town, you can teleport to your town spawn using `/t spawn`. You can also teleport to another town if that town is a public town, you can check this in `/t <town name>`.
+
+Town spawn by default is in the same location when you created your town, but you can still change it in the future. There are two different ways to change town spawn, the method you choose depends on whether the new plot would be the same chunk from your current town spawn or not. If the new spawn is inside the old spawn plot, do `/t set spawn` to set a town spawn, if it's outside, do `/t set homeblock`.
 
 |Command|Description|
 |-|-|
@@ -98,9 +103,11 @@ Only town mayor and co-mayor can change the town spawn
 ---
 
 ## Town Outpost
+
 :::warning
 In this section, we only discuss Town outpost briefly. For more info visit the Towny Town section.
 :::
+
 Some towns also have outposts, outpost is a place where residents can teleport to in ur town that are usually far away from the main town area. To check whether your town has an outpost or not, you can use the command `/t outpost list [page]`, and you can teleport to your own outpost using `/t outpost <name/number>`. You can only teleport to your own town outpost, and only the town residents can teleport to it. Town outpost uses plot name or group name by default as outpost name. If there is both a group and plot name, it will always choose the group name as the outpost name.
 
 |Command|Description|
@@ -119,9 +126,11 @@ In java, you can click the outpost name on the outpost lists in chat to teleport
 ---
 
 ## Nation Spawn
+
 :::warning
 In this section, we only discuss Nation spawn briefly. For more info visit the Towny Nation section.
 :::
+
 When your town is a part of a nation, you can have access to the Nation Spawn. Similarly just like town spawn, nation spawn can be accessed with `/n spawn`. In this server, you can't travel to another nation spawn even with the nation's public status enabled.
 
 By default the nation spawn will be right where the capital’s town spawn is. It can be changed using `/n set spawn`. You can change it anywhere as long as it's in the capital town plot.
@@ -138,8 +147,8 @@ Only nation king can change the nation spawn
 ---
 
 ## Home
-Home is a way for players to set a personal warp point that they can teleport to any time. The amount of home you can have depends on the rank you have, to see how many home each rank can have visit the rank section.
 
+Home is a way for players to set a personal warp point that they can teleport to any time. The amount of home you can have depends on the rank you have, to see how many home each rank can have visit the rank section.
 
 |Command|Description|
 |-|-|
@@ -155,6 +164,7 @@ If you can only set one home(newcomer rank), you can just use `/sethome` and it 
 ---
 
 ## Slimefun GPS
+
 :::warning
 In this section, we only discuss Slimefun GPS briefly. For more info visit the Slimefun GPS section.
 :::
@@ -166,6 +176,7 @@ Slimefun has a GPS suite that allows you to bookmark a location and teleport to 
 </div>
 
 Items required:
+
 - 1 GPS Teleporter Pylon
 - 8 GPS Teleporter Matrix
 - 1 GPS Activation Device (Shared/Personal)
@@ -212,8 +223,8 @@ The shape of the warp pads range is a square(creating a 201x201 valid area). And
 ---
 
 ## Server-wide Map
-If you decided to travel the main world without utilizing the warp features, you might want to use the server-wide map to know where you want to go. In this map you can see every player's location and towns. The map is hosted on TheCavern website and can be accessed from [https://thecavern.net/map/](https://thecavern.net/map/).
 
+If you decided to travel the main world without utilizing the warp features, you might want to use the server-wide map to know where you want to go. In this map you can see every player's location and towns. The map is hosted on TheCavern website and can be accessed from [https://thecavern.net/map/](https://thecavern.net/map/).
 
 <div align="center">
 <img src={SquareMap} alt="SquareMap" height="480" style={{ padding: '0 1rem' }}/>
@@ -222,5 +233,3 @@ If you decided to travel the main world without utilizing the warp features, you
 ---
 
 ## Other
-
-

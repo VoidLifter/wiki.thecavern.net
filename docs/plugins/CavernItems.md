@@ -16,7 +16,9 @@ The wand produces a preview of glowing blocks that when the wand is right-clicke
 Unlike the original builders wand, these have a max durability. 1 use of the wand takes 1 durability, and follows a similar damage formula when unbreaking is applied to the item.
 
 ### Known Limitations
+
 The following blocks are banned from being used with the wand
+
 * Chests
 * Trapped Chests
 * Doors
@@ -24,18 +26,25 @@ The following blocks are banned from being used with the wand
 * Skulls
 * All Slimefun blocks
 * All MoFood™ blocks
+
 ### Wand Limits per level
+
 #### Base Wand
+
 * Glass block outline
 * White glow
 * 32 Block limit
 * 100 Base durability
+
 #### Tier 2 Wand
+
 * Glass block outline
 * Selectable color glow
 * 64 Block limit
 * 500 Base durability
+
 #### Tier 3 Wand
+
 * Custom block outline
 * Custom hex color glow
 * 160 Block limit

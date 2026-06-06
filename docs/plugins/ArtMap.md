@@ -22,56 +22,67 @@ keywords:
 ArtMap is a plugin that lets you create artworks in a form of minecraft map easily. Rather than building a large area to create an artwork in the server, ArtMap lets you edit out a 32x32 pixel map without building any form of structure.
 
 :::info
+
 To access this plugin, you need to be at least a Citizen rank.
+
 :::
 
 ## Plugin Commands
 
 |Command|Uses|
 |-|-|
-|`/art`| Open the ArtMap menu|
-|`/art save`| Saves the art you are currently editing|
-|`/art searh <title>`| Search art based on the title|
-|`/art search --mine [title]`| Search art that you made|
-|`/art search --player <playername> [title]`| Search a given player|
-|`/art preview <artwork>`| Preview an artwork.|
-|`/art delete <artwork>`| Deletes your artwork. All copies of this artwork will also be deleted|
+|`/art`|Open the ArtMap menu|
+|`/art save`|Saves the art you are currently editing|
+|`/art searh <title>`|Search art based on the title|
+|`/art search --mine [title]`|Search art that you made|
+|`/art search --player <playername> [title]`|Search a given player|
+|`/art preview <artwork>`|Preview an artwork.|
+|`/art delete <artwork>`|Deletes your artwork. All copies of this artwork will also be deleted|
 
 ## Plugin Usage
 
 ### Creating an artwork
+
 To create an artwork, first you must get an easel and a canvas. Easel are used to place the canvas that are needed when painting. After u placed an easel, place a canvas in it so you can start painting.
 
 Right click an easel to ride it so you know you are in **editing mode**. In this mode you cant move and you can edit the canvas you are editing in the easel. To start painting colors, you click the canvas with a dye that are listed as paint. You can see the list of dye in the [Dye section](#dyes).
 
 When you are in editing mode, here are some items  that you  can use to edit the painting:
+
 1. **Dyes**, left click a canvas to draw a pixel, and right click to draw a line.
-2. **Fill**(Empty Bucket), left click when you have a dye in your offhand and an empty bucket in your mainhand to fill an area, right click to undo last fill   
+2. **Fill**(Empty Bucket), left click when you have a dye in your offhand and an empty bucket in your mainhand to fill an area, right click to undo last fill
 3. **Shade**(Coal), left click a canvas to darken a pixel, and right click to draw a line. You could darken a color twice.
 4. **Tint**(Feather), left click a canvas to lighten a pixel, and right click to draw a line. you can only lighten a color 1 time.
 5. **Rotate**(Compass), when clicked on a canvas, it will flip the whole canvas. left click to flip horizontally, right click to flip vertically.
 6. **Copy**(Sponge), left click in the canvas when editing to get a color, then you could paint with that color using right click
 
 ### Managing artworks
+
 #### - Saving
+
 You can save any artwork by using /artmap save . You can view artworks created by any player by opening the /artmap menu, clicking "View Artworks", and selecting the player you want to view. Even if you lose all copies of your artwork, it can still be retrieved by players with artmap.admin privileges through this menu.
 
 #### - Copying
+
 To create copies of an artwork, combine it in the crafting table with one or more empty map(s). Note that you can only create copies of your own artworks.
 As of version 3.3.0, players may obtain artwork from the /art menu
 if the player has an empty map in their inventory, clicks on the painting to copy, and right clicks on the map in that menu.
 
 #### - Editing
+
 To edit an artwork, right-click an easel with a copy of your artwork. Note that this won't change active copies of the original artwork, but instead creates a new artwork, identical to your original.
 
 #### - Deleting
+
 Any artwork can be deleted using /artmap delete . This will affect all copies in the world of this artwork. Players can only delete their own artworks, unless they have artmap.admin privileges.
 
 #### - Obtaining / Searching
+
 In 1.13+ versions, players may use the /art search feature. Type "/art search " to find artworks which contain the search words. For example, if I want to search for "flower" I would type "/art search flower" and hit enter. Players with permission to obtain the art can click on the text to interact with the list.
 
 ### Dyes
-Here are the list of colors that you can get from the 
+
+Here are the list of colors that you can get from the plugin.
 
 |Color Code|Dye|Modifier|
 |-|-|-|
@@ -321,6 +332,7 @@ Here are the list of colors that you can get from the
 |#42574e|GlowLichen|2xShade|
 
 Here's the chart of what the colors look like:
+
 <div style={{margin: '0 auto', width: '80%'}}>
 
 ![image](../assets/img/plugins/ArtMap/art-map-chart.png)
@@ -328,5 +340,6 @@ Here's the chart of what the colors look like:
 </div>
 
 ## References
+
 1. [Plugin Source Code](https://gitlab.com/BlockStack/ArtMap)
 2. [Plugin Official Wiki](https://gitlab.com/BlockStack/ArtMap/-/wikis/home)
