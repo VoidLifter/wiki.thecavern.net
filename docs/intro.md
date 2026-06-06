@@ -39,5 +39,6 @@ At its core, TheCavern fosters a wholesome and welcoming community. With a donat
 
 This wiki is new, check out the [Contributing](/Contributing) page to help out!
 
-If you want to see upcoming wiki updates goto [here](https://wiki-next.thecavern.net)
+If you want to see upcoming wiki updates, go to the [dev wiki](https://wiki-next.thecavern.net).
+
 :::

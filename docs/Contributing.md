@@ -16,7 +16,7 @@ At the GitHub page linked at the top of this page, sign in and create your own f
 Using [Markdown](https://docusaurus.io/docs/markdown-features) write the documentation you wish to be added.
 Once you've made the changes in your editor (I suggest using [Visual Studio Code](https://code.visualstudio.com/)) you must commit the changes to GitHub.
 
-If you are not familiar with GitHub, download [GitHub Desktop](https://desktop.github.com/download/), documentation for it can be found [here](https://docs.github.com/en/desktop).
+If you are not familiar with GitHub, download [GitHub Desktop](https://desktop.github.com/download/), documentation for it can be found in the [GitHub Desktop documentation](https://docs.github.com/en/desktop).
 
 Optionally, you can navigate to the directory which you have made changes in both on GitHub and your file explorer, and upload the changed files.
 ![Upload Step 1](./assets/img/Contributing/file_upload_button.png)
